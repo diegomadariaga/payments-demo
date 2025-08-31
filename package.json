@@ -1,0 +1,9 @@
+{
+  "name": "payments-demo",
+  "private": true,
+  "workspaces": ["services/*"],
+  "scripts": {
+    "bootstrap": "npm install --workspaces",
+    "orders:dev": "npm --workspace orders-service run start:dev"
+  }
+}
